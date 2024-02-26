@@ -1,0 +1,35 @@
+/* css for ALL pages */
+body {
+  background-image: url(https://img.freepik.com/premium-vector/dreamy-peach-pink-gradient-wallpaper-with-mandala-pattern_119217-343.jpg);
+  background-size: cover;
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+
+h1, h2, nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  justify-content: space-around;
+}
+
+/* css for about.html */
+
+#headshot {
+  width: 40%;
+  padding: 10px;
+}
+#bio {
+  display: flex;
+  flex-direction: row;
+}
+
+#biotext {
+  font-size: 20px;
+}
